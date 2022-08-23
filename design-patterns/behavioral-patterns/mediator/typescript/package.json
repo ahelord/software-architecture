@@ -1,0 +1,11 @@
+{
+  "name": "mediator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mediator.js",
+  "scripts": {
+    "start": "npx typescript mediator.ts && node mediator.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
