@@ -10,7 +10,7 @@ class Car extends Vehicle {
 
 class Bike extends Vehicle {
     public move(): string {
-        return 'givePedal'
+        return 'moveLegs'
     }
 }
 

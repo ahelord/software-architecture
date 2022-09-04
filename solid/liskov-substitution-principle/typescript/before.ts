@@ -9,8 +9,8 @@ class Car extends Vehicle {
 }
 
 class Bike extends Vehicle {
-    public givePedal(): string {
-        return 'givePedal'
+    public moveLegs(): string {
+        return 'moveLegs'
     }
 }
 
@@ -20,7 +20,7 @@ function movesVehicles(vehicles: Vehicle[]) {
             vehicle.accelerate()
         }
         if (vehicle instanceof Bike) {
-            vehicle.givePedal()
+            vehicle.moveLegs()
         }
     });
 }
